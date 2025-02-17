@@ -1,7 +1,7 @@
 # Institutional Trading Requirements (No HSM)
 web3==6.15.1
-solana==0.29.0
-solders==0.18.0
+solana==0.34.0
+solders==0.16.0
 streamlit==1.32.0
 cryptography==42.0.5
 sqlalchemy==2.0.29
