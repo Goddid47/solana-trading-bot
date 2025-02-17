@@ -1,6 +1,6 @@
 rpc_endpoints:
   solana: "https://api.mainnet-beta.solana.com"
-  ethereum: "https://mainnet.infura.io/v3/YOUR_INFURA_KEY"
+  ethereum: "https://mainnet.infura.io/v3/70efc59f798948149cf2832b25954cec"
   
 wallets:
   phantom:
