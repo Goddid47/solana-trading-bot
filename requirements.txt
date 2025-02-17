@@ -1,17 +1,17 @@
-# Institutional Trading Requirements (No HSM)
+# Institutional-Grade Dependencies
 web3==6.15.1
 solana==0.34.0
-solders==0.21.0  # Exact version required by solana 0.34.0
+solders==0.21.0
 streamlit==1.32.0
 cryptography==42.0.5
 sqlalchemy==2.0.29
 python-dotenv==1.0.1
-pyyaml==6.0.1
+pyyaml==5.4.1  # Compatible version
 requests==2.31.0
 pytest==8.0.2
 python-telegram-bot==20.6
 docker==7.0.0
-docker-compose==1.29.2
+docker-compose==1.29.2  # Requires PyYAML<6
 pytest-asyncio==0.23.5
 prometheus-client==0.20.0
 bandit==1.7.7
