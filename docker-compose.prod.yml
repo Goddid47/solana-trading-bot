@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  bullx-core:
+    build: .
+    environment:
+      - ENCRYPTION_KEY=/run/secrets/enc_key
+    secrets:
+      - enc_key
+    volumes:
+      - ./config:/app/config:ro
+    ports:
+      - "8501:8501"
+      - "8000:8000"
+
+  monitoring:
+    image: prom/prometheus:v2.40.0
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+secrets:
+  enc_key:
+    file: .encryption_key
