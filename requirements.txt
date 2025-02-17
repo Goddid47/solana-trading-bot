@@ -24,7 +24,7 @@ docker-compose==1.29.2  # Corrected version
 
 # HSM Support (Optional)
 python-pkcs11==0.7.0
-python-pkcs11-redirector==1.0.1  # Additional compatibility layer
+pykcs11==1.0.3
 libsecp256k1==0.3.0
 
 # Testing
