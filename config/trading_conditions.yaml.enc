@@ -1,0 +1,18 @@
+position_sizing:
+  default_amount: 5000.0    # USD per trade
+  max_simultaneous: 5       # Concurrent positions
+  scaling_factor: 1.2       # Position scaling after wins
+
+risk_management:
+  take_profit: 15.0         # Percentage
+  stop_loss: 5.0            # Percentage
+  max_drawdown: 20.0        # Daily portfolio loss limit
+
+allocation_rules:
+  max_portfolio_risk: 2.0   # Percentage of total capital
+  max_asset_allocation: 10.0 # Percentage per asset
+  blacklist_expiry: 30      # Days to keep addresses blacklisted
+
+performance:
+  profit_lock: 50.0         # Percentage of profits to secure
+  trailing_stop: 3.0        # Percentage for trailing stop
