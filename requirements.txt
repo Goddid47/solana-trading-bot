@@ -23,8 +23,8 @@ docker==7.0.0
 docker-compose==1.29.2  # Corrected version
 
 # HSM Support (Optional)
-python-pkcs11==0.7.0
-pykcs11==1.0.3
+pykcs11==1.5.17  # Latest stable version
+python-hsm==0.2.1  # Abstraction layer
 libsecp256k1==0.3.0
 
 # Testing
