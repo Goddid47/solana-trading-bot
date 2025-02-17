@@ -1,0 +1,9 @@
+rpc_endpoints:
+  solana: "https://api.mainnet-beta.solana.com"
+  ethereum: "https://mainnet.infura.io/v3/YOUR_INFURA_KEY"
+  
+wallets:
+  phantom:
+    network: "mainnet-beta"
+  metamask:
+    chain_id: 1
