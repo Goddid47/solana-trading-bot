@@ -1,8 +1,10 @@
 # requirements.txt
 # Institutional Trading System Dependencies
 
+# Remove Python version constraint from requirements.txt
+# Specify Python version using pyenv or Docker instead
+
 # Core Requirements
-python>=3.9,<3.11
 web3==6.15.1
 solana==0.29.0
 solders==0.18.0
@@ -18,14 +20,13 @@ python-telegram-bot==20.6
 # Security & Monitoring
 bandit==1.7.7
 prometheus-client==0.20.0
-fernet==1.0.1
 
 # Infrastructure
 docker==7.0.0
 docker-compose==2.24.5
 psycopg2-binary==2.9.9
 
-# Optional (HSM Support)
+# HSM Support (Optional)
 python-pkcs11==1.0.5
 libsecp256k1==0.3.0
 
