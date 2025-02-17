@@ -1,4 +1,6 @@
 # requirements.txt - Verified Compatible Versions
+cython==3.0.10
+setuptools==69.1.0
 web3==5.31.3
 protobuf==3.19.5  # Web3-compatible version
 streamlit==1.29.0  # Last version supporting protobuf<3.20
