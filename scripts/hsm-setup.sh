@@ -1,11 +1,10 @@
 #!/bin/bash
-# scripts/hsm-setup.sh
+# Install PKCS#11 base libraries
+wget https://github.com/OpenSC/OpenSC/releases/download/0.24.0/opensc-0.24.0.tar.gz
+tar xvf opensc-*.tar.gz
+cd opensc-0.24.0 && ./bootstrap && ./configure && make && sudo make install
 
-# Install PKCS#11 libraries
-wget https://github.com/OpenSC/libp11/releases/download/libp11-0.5.0/libp11-0.5.0.tar.gz
-tar xvf libp11-0.5.0.tar.gz
-cd libp11-0.5.0 && ./configure && make && sudo make install
-
-# Configure HSM module
-sudo mkdir -p /opt/hsm/config
-sudo chmod 700 /opt/hsm
+# Configure HSM
+sudo ldconfig
+sudo mkdir -p /opt/hsm/{config,certs}
+sudo chmod 700 -R /opt/hsm
