@@ -1,9 +1,6 @@
 # requirements.txt
 # Institutional Trading System Dependencies
 
-# Remove Python version constraint from requirements.txt
-# Specify Python version using pyenv or Docker instead
-
 # Core Requirements
 web3==6.15.1
 solana==0.29.0
@@ -23,8 +20,7 @@ prometheus-client==0.20.0
 
 # Infrastructure
 docker==7.0.0
-docker-compose==2.24.5
-psycopg2-binary==2.9.9
+docker-compose==1.29.2  # Corrected version
 
 # HSM Support (Optional)
 python-pkcs11==1.0.5
