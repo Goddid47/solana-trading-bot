@@ -6,7 +6,7 @@ streamlit==1.32.0
 cryptography==42.0.5
 sqlalchemy==2.0.29
 python-dotenv==1.0.1
-pyyaml==5.4.1  # Compatible version
+pyyaml==6.0.1  # Compatible version
 requests==2.31.0
 pytest==8.0.2
 python-telegram-bot==20.6
