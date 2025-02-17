@@ -1,0 +1,6 @@
+# Add these lines
+.env
+node_modules/
+.DS_Store
+dist/
+*.log
