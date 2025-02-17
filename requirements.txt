@@ -1,9 +1,9 @@
-# requirements.txt - Verified Working Version
-web3==5.31.3
-protobuf==3.19.5
-streamlit==1.25.0  # Last version compatible with protobuf<3.20
-eth-typing==2.3.0
-eth-utils==1.10.0
+# requirements.txt - Working Configuration
+web3==6.15.1              # Modern version with protobuf 4.x
+protobuf==4.25.3          # Compatible with Web3 and Streamlit
+streamlit==1.32.0         # Latest compatible version
+eth-typing==5.0.1         # Modern type definitions
+eth-utils==4.0.0          # Updated utilities
 solana==0.34.0
 solders==0.21.0
 cryptography==42.0.5
