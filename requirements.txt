@@ -18,7 +18,11 @@ requests==2.31.0
 # Dev Tools
 pytest==8.0.2
 pytest-asyncio==0.23.5
+pytest-xdist==3.5.0 
 bandit==1.7.7
+
+# Force Clean Installation
+--force-reinstall
 
 # Infrastructure
 docker==7.0.0
