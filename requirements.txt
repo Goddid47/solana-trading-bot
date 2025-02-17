@@ -1,9 +1,7 @@
-# requirements.txt - Final Working Version
-cython==3.0.10
-setuptools==69.1.0
+# requirements.txt - Verified Working Version
 web3==5.31.3
 protobuf==3.19.5
-streamlit==1.29.0
+streamlit==1.25.0  # Last version compatible with protobuf<3.20
 eth-typing==2.3.0
 eth-utils==1.10.0
 solana==0.34.0
@@ -11,7 +9,7 @@ solders==0.21.0
 cryptography==42.0.5
 sqlalchemy==2.0.29
 python-dotenv==1.0.1
-pyyaml==6.0.1  # Use modern version with pre-built wheels
+pyyaml==6.0.1
 requests==2.31.0
 pytest==8.0.2
 python-telegram-bot==20.6
