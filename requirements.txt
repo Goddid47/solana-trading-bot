@@ -1,0 +1,33 @@
+# requirements.txt
+# Institutional Trading System Dependencies
+
+# Core Requirements
+python>=3.9,<3.11
+web3==6.15.1
+solana==0.29.0
+solders==0.18.0
+streamlit==1.32.0
+cryptography==42.0.5
+sqlalchemy==2.0.29
+python-dotenv==1.0.1
+pyyaml==6.0.1
+requests==2.31.0
+pytest==8.0.2
+python-telegram-bot==20.6
+
+# Security & Monitoring
+bandit==1.7.7
+prometheus-client==0.20.0
+fernet==1.0.1
+
+# Infrastructure
+docker==7.0.0
+docker-compose==2.24.5
+psycopg2-binary==2.9.9
+
+# Optional (HSM Support)
+python-pkcs11==1.0.5
+libsecp256k1==0.3.0
+
+# Testing
+pytest-asyncio==0.23.5
