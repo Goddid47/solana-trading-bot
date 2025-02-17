@@ -1,7 +1,4 @@
-# requirements.txt
-# Institutional Trading System Dependencies
-
-# Core Requirements
+# Institutional Trading Requirements (No HSM)
 web3==6.15.1
 solana==0.29.0
 solders==0.18.0
@@ -13,17 +10,8 @@ pyyaml==6.0.1
 requests==2.31.0
 pytest==8.0.2
 python-telegram-bot==20.6
-
-# Security & Monitoring
-bandit==1.7.7
-prometheus-client==0.20.0
-
-# Infrastructure
 docker==7.0.0
-docker-compose==1.29.2  # Corrected version
-
-# HSM Support (Optional)
-libsecp256k1==0.3.0
-
-# Testing
+docker-compose==1.29.2
 pytest-asyncio==0.23.5
+prometheus-client==0.20.0
+bandit==1.7.7
